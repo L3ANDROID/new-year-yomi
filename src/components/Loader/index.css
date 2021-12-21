@@ -1,0 +1,127 @@
+
+.wreath {
+  /* background: rgb(255,255,255); */
+  background: radial-gradient(circle, rgb(255, 255, 255,0) 28%, rgba(21,174,3,1) 29%);
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  animation: spin 3s infinite linear;
+}
+
+.ball1,
+.ball2,
+.ball3,
+.ball4,
+.ball5,
+.ball6 {
+  height: 30px;
+  width: 30px;
+  background-color: red;
+  border-radius: 50%;
+  position: relative;
+}
+
+.ball1 {
+  top: 60px;
+  left: 50px;
+}
+
+.ball2 {
+  top: 140px;
+  left: 40px;
+}
+
+.ball3 {
+  top: 180px;
+  left: 130px;
+}
+
+.ball4 {
+  top: 90px;
+  left: 230px;
+}
+
+.ball5 {
+  bottom: 50px;
+  left: 230px;
+}
+
+.ball6 {
+  bottom: 120px;
+  left: 135px;
+}
+
+.ribbon1,
+.ribbon2,
+.ribbon3,
+.ribbon4,
+.ribbon5,
+.ribbon6 {
+  height: 90px;
+  width: 10px;
+  background-color: yellow;
+  position: relative;
+}
+
+.ribbon1 {
+  bottom: 87px;
+  left: 40px;
+  transform: rotate(90deg);
+}
+
+.ribbon2 {
+  bottom: 85px;
+  left: 77px;
+  transform: rotate(45deg);
+}
+
+.ribbon3 {
+  bottom: 160px;
+  left: 190px;
+  transform: rotate(-30deg);
+}
+
+.ribbon4 {
+  bottom: 360px;
+  left: 250px;
+  transform: rotate(90deg);
+}
+
+.ribbon5 {
+  bottom: 528px;
+  left: 95px;
+  transform: rotate(-30deg);
+}
+
+.ribbon6 {
+  bottom: 620px;
+  left: 195px;
+  transform: rotate(30deg);
+}
+
+.bow1,
+.bow2 {
+  height: 70px;
+  width: 70px;
+  background-color: red;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  border-radius: 50px;
+  position: relative;
+}
+
+.bow1 {
+  bottom: 710px;
+  left: 90px;
+  transform: rotate(90deg);
+}
+
+.bow2 {
+  bottom: 780px;
+  left: 140px;
+  transform: rotate(-90deg);
+}
+
+@keyframes spin {
+  0% {transform: rotate(0deg)}
+  100% {transform: rotate(360deg)}
+}
