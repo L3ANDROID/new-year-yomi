@@ -63,9 +63,9 @@ const Countdown = ({ setNewYear, newYear, inputName, setInputName }) => {
     return (
         <div className='body'>
             <div className="container">
-                <h1 id="headline">{newYear === 0 ? "HAPPY NEW YEAR 2022" : "PAGE WILL BE UNLOCKED IN:"}</h1>
+                <h1 id="headline">{newYear === 1 ? "HAPPY NEW YEAR 2022" : "PAGE WILL BE UNLOCKED IN:"}</h1>
                 <div id="countdown">
-                    {newYear === 0
+                    {newYear === 1
                         ?
                         <div className='cuerpo'>
                             <div className="form__group field">
