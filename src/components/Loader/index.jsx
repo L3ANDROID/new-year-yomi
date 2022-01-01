@@ -1,9 +1,9 @@
 import './index.css';
 
-const Loader = () => {
+const Loader = ({newYear}) => {
 
     return (
-        <div className="wreath">
+        <div id='wreath' className={newYear === 1 ? "giro1" : newYear === 2 ? "giro2" : newYear === 3 ? "giro3" : newYear === 4 ? "giro4" : "giro4"}>
             <div className="ball1"></div>
             <div className="ball2"></div>
             <div className="ball3"></div>

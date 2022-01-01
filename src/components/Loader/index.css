@@ -1,11 +1,23 @@
 
-.wreath {
+#wreath {
   /* background: rgb(255,255,255); */
   background: radial-gradient(circle, rgb(255, 255, 255,0) 28%, rgba(21,174,3,1) 29%);
   height: 300px;
   width: 300px;
   border-radius: 50%;
-  animation: spin 3s infinite linear;
+}
+
+.giro1{
+    animation: spin 4s infinite linear;
+}
+.giro2{
+    animation: spin 3s infinite linear;
+}
+.giro3{
+    animation: spin 2s infinite linear;
+}
+.giro4{
+    animation: spin 1s infinite linear;
 }
 
 .ball1,
